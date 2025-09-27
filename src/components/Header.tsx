@@ -41,33 +41,49 @@ const Header = () => {
           <nav className="hidden md:flex space-x-10">
             <Link
               to="/"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-base font-medium text-gray-500 hover:text-green-600 transition-colors"
             >
               Home
             </Link>
             <Link
               to="/about"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-base font-medium text-gray-500 hover:text-green-600 transition-colors"
             >
-              About
+              About Project
+            </Link>
+            <div className="relative group">
+              <button className="text-base font-medium text-gray-500 hover:text-green-600 transition-colors flex items-center">
+                Services
+                <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+            </div>
+            <div className="relative group">
+              <button className="text-base font-medium text-gray-500 hover:text-green-600 transition-colors flex items-center">
+                Eco-Coins
+                <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+            </div>
+            <Link
+              to="/volunteers"
+              className="text-base font-medium text-gray-500 hover:text-green-600 transition-colors"
+            >
+              Volunteers
             </Link>
             <Link
-              to="/services"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              to="/games"
+              className="text-base font-medium text-gray-500 hover:text-green-600 transition-colors"
             >
-              Services
-            </Link>
-            <Link
-              to="/contact"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
-            >
-              Contact
+              Games
             </Link>
           </nav>
 
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <button className="bg-green-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-green-700 transition-colors">
-              Get Started
+            <button className="bg-yellow-400 text-green-800 px-4 py-2 rounded-md text-sm font-medium hover:bg-yellow-300 transition-colors shadow-sm">
+              🚛 Call Eco Team
             </button>
           </div>
         </div>
@@ -109,38 +125,53 @@ const Header = () => {
                 <nav className="grid gap-y-8">
                   <Link
                     to="/"
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
+                    className="text-base font-medium text-gray-900 hover:text-green-600"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     Home
                   </Link>
                   <Link
                     to="/about"
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
+                    className="text-base font-medium text-gray-900 hover:text-green-600"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    About
+                    About Project
                   </Link>
-                  <Link
-                    to="/services"
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
+                  <div className="text-base font-medium text-gray-900">
                     Services
-                  </Link>
+                    <div className="ml-4 mt-2 space-y-2">
+                      <div className="text-sm text-gray-600">• Call Eco Team</div>
+                      <div className="text-sm text-gray-600">• Track Vehicle</div>
+                      <div className="text-sm text-gray-600">• Container Map</div>
+                    </div>
+                  </div>
+                  <div className="text-base font-medium text-gray-900">
+                    Eco-Coins
+                    <div className="ml-4 mt-2 space-y-2">
+                      <div className="text-sm text-gray-600">• Scan QR Codes</div>
+                      <div className="text-sm text-gray-600">• Marketplace</div>
+                    </div>
+                  </div>
                   <Link
-                    to="/contact"
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
+                    to="/volunteers"
+                    className="text-base font-medium text-gray-900 hover:text-green-600"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Contact
+                    Volunteers
+                  </Link>
+                  <Link
+                    to="/games"
+                    className="text-base font-medium text-gray-900 hover:text-green-600"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    Games
                   </Link>
                 </nav>
               </div>
             </div>
             <div className="py-6 px-5 space-y-6">
-              <button className="w-full bg-green-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-green-700 transition-colors">
-                Get Started
+              <button className="w-full bg-yellow-400 text-green-800 px-4 py-2 rounded-md text-sm font-medium hover:bg-yellow-300 transition-colors">
+                🚛 Call Eco Team
               </button>
             </div>
           </div>
