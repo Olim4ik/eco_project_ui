@@ -1,0 +1,154 @@
+{
+  "nav": {
+    "home": "Home",
+    "aboutProject": "About Project",
+    "services": "Services",
+    "ecoCoins": "Eco-Coins",
+    "volunteers": "Volunteers",
+    "games": "Games",
+    "callEcoTeam": "🚛 Call Eco Team"
+  },
+  "hero": {
+    "title": "Transform Waste into Rewards",
+    "description": "Join the gamified recycling revolution! Earn eco-coins, compete with your community, and make environmental impact fun and rewarding.",
+    "callEcoTeamBtn": "🚛 Call Eco Team",
+    "learnMoreBtn": "Learn How It Works"
+  },
+  "services": {
+    "title": "Our Core Services",
+    "description": "Complete waste management ecosystem with smart technology, gamification, and community engagement",
+    "callEcoTeam": {
+      "title": "Call Eco Team",
+      "description": "Quick waste collection booking with calendar integration and geolocation. Schedule pickup at your convenience."
+    },
+    "trackVehicle": {
+      "title": "Track Vehicle",
+      "description": "Real-time GPS tracking of collection vehicles. Know exactly when your eco-team will arrive."
+    },
+    "smartContainers": {
+      "title": "Smart Containers",
+      "description": "Interactive map showing container fill levels in real-time. Find the nearest available drop-off point."
+    },
+    "ecoCoins": {
+      "title": "Eco-Coins System",
+      "description": "Scan QR codes to earn rewards. Exchange eco-coins for products, discounts, and exclusive offers."
+    },
+    "volunteerNetwork": {
+      "title": "Volunteer Network",
+      "description": "Join local teams, organize community events, and lead environmental initiatives in your area."
+    },
+    "gamesLearning": {
+      "title": "Games & Learning",
+      "description": "Educational challenges, competitions, and leaderboards. Learn while you earn and compete with friends."
+    }
+  },
+  "userTypes": {
+    "title": "Who We Serve",
+    "description": "Our platform connects everyone in the recycling ecosystem - from residents to businesses to community leaders",
+    "residents": {
+      "title": "Residents",
+      "features": [
+        "• Order waste collection",
+        "• Earn eco-coins",
+        "• Track personal impact",
+        "• Access educational resources"
+      ]
+    },
+    "volunteers": {
+      "title": "Volunteers",
+      "features": [
+        "• Organize local eco-teams",
+        "• Lead community initiatives",
+        "• Coordinate events",
+        "• Build networks"
+      ]
+    },
+    "companies": {
+      "title": "Companies",
+      "features": [
+        "• Partner waste services",
+        "• Sustainability programs",
+        "• Employee engagement",
+        "• Corporate sponsorship"
+      ]
+    },
+    "operators": {
+      "title": "Operators",
+      "features": [
+        "• Manage collection routes",
+        "• Monitor systems",
+        "• Coordinate teams",
+        "• Track efficiency"
+      ]
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "description": "Start earning rewards and making environmental impact in just 5 simple steps",
+    "steps": {
+      "register": {
+        "title": "Register",
+        "description": "Set up your profile and choose your role in the eco-community"
+      },
+      "bookOrDrop": {
+        "title": "Book or Drop",
+        "description": "Schedule eco-team pickup or use smart container drop-off points"
+      },
+      "scanQR": {
+        "title": "Scan QR",
+        "description": "Scan QR codes on containers to earn eco-coins for recycling"
+      },
+      "compete": {
+        "title": "Compete",
+        "description": "Join challenges, climb leaderboards, and earn achievement badges"
+      },
+      "redeem": {
+        "title": "Redeem",
+        "description": "Exchange eco-coins for rewards in our marketplace"
+      }
+    }
+  },
+  "technology": {
+    "title": "Powered by Innovation",
+    "description": "Cutting-edge technology that makes waste management smart, engaging, and efficient",
+    "smartIoT": {
+      "title": "Smart IoT",
+      "description": "Container sensors and real-time monitoring"
+    },
+    "gamification": {
+      "title": "Gamification",
+      "description": "Badges, leaderboards, and achievements"
+    },
+    "mobilePWA": {
+      "title": "Mobile PWA",
+      "description": "Seamless smartphone experience"
+    },
+    "apiEcosystem": {
+      "title": "API Ecosystem",
+      "description": "Partner integration for rewards"
+    }
+  },
+  "stats": {
+    "title": "Our Growing Impact",
+    "description": "Join thousands of eco-champions who are already making a difference",
+    "tonsRecycled": "Tons Recycled",
+    "activeUsers": "Active Users",
+    "ecoCoinsEarned": "Eco-Coins Earned",
+    "citiesParticipating": "Cities Participating"
+  },
+  "cta": {
+    "title": "Ready to Start Earning Rewards?",
+    "description": "Join our eco-community today and start earning eco-coins for every recycling action. Your impact starts now!",
+    "callEcoTeamBtn": "🚛 Call Eco Team Now",
+    "startEarningBtn": "🪙 Start Earning Coins",
+    "benefits": "🌱 Free to join • 🎮 Instant rewards • 🌍 Make real impact"
+  },
+  "footer": {
+    "description": "Join the eco-revolution and start earning rewards for your environmental impact. Together, we can build a sustainable future.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "support": "Support",
+    "followUs": "Follow Us",
+    "allRightsReserved": "All rights reserved. EcoProject"
+  }
+}

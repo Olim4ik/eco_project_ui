@@ -1,7 +1,10 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from '../i18n';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Header = () => {
+  const { t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -43,17 +46,17 @@ const Header = () => {
               to="/"
               className="text-base font-medium text-gray-500 hover:text-green-600 transition-colors"
             >
-              Home
+              {t.nav.home}
             </Link>
             <Link
               to="/about"
               className="text-base font-medium text-gray-500 hover:text-green-600 transition-colors"
             >
-              About Project
+              {t.nav.aboutProject}
             </Link>
             <div className="relative group">
               <button className="text-base font-medium text-gray-500 hover:text-green-600 transition-colors flex items-center">
-                Services
+                {t.nav.services}
                 <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
@@ -61,7 +64,7 @@ const Header = () => {
             </div>
             <div className="relative group">
               <button className="text-base font-medium text-gray-500 hover:text-green-600 transition-colors flex items-center">
-                Eco-Coins
+                {t.nav.ecoCoins}
                 <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
@@ -71,19 +74,20 @@ const Header = () => {
               to="/volunteers"
               className="text-base font-medium text-gray-500 hover:text-green-600 transition-colors"
             >
-              Volunteers
+              {t.nav.volunteers}
             </Link>
-            <Link
+            {/* <Link
               to="/games"
               className="text-base font-medium text-gray-500 hover:text-green-600 transition-colors"
             >
-              Games
-            </Link>
+              {t.nav.games}
+            </Link> */}
           </nav>
 
-          <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+          <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0 space-x-4">
+            <LanguageSwitcher />
             <button className="bg-yellow-400 text-green-800 px-4 py-2 rounded-md text-sm font-medium hover:bg-yellow-300 transition-colors shadow-sm">
-              🚛 Call Eco Team
+              {t.nav.callEcoTeam}
             </button>
           </div>
         </div>
@@ -128,25 +132,25 @@ const Header = () => {
                     className="text-base font-medium text-gray-900 hover:text-green-600"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Home
+                    {t.nav.home}
                   </Link>
                   <Link
                     to="/about"
                     className="text-base font-medium text-gray-900 hover:text-green-600"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    About Project
+                    {t.nav.aboutProject}
                   </Link>
                   <div className="text-base font-medium text-gray-900">
-                    Services
+                    {t.nav.services}
                     <div className="ml-4 mt-2 space-y-2">
-                      <div className="text-sm text-gray-600">• Call Eco Team</div>
-                      <div className="text-sm text-gray-600">• Track Vehicle</div>
-                      <div className="text-sm text-gray-600">• Container Map</div>
+                      <div className="text-sm text-gray-600">• {t.services.callEcoTeam.title}</div>
+                      <div className="text-sm text-gray-600">• {t.services.trackVehicle.title}</div>
+                      <div className="text-sm text-gray-600">• {t.services.smartContainers.title}</div>
                     </div>
                   </div>
                   <div className="text-base font-medium text-gray-900">
-                    Eco-Coins
+                    {t.nav.ecoCoins}
                     <div className="ml-4 mt-2 space-y-2">
                       <div className="text-sm text-gray-600">• Scan QR Codes</div>
                       <div className="text-sm text-gray-600">• Marketplace</div>
@@ -157,21 +161,24 @@ const Header = () => {
                     className="text-base font-medium text-gray-900 hover:text-green-600"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Volunteers
+                    {t.nav.volunteers}
                   </Link>
                   <Link
                     to="/games"
                     className="text-base font-medium text-gray-900 hover:text-green-600"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Games
+                    {t.nav.games}
                   </Link>
+                  <div className="pt-4">
+                    <LanguageSwitcher variant="inline" />
+                  </div>
                 </nav>
               </div>
             </div>
             <div className="py-6 px-5 space-y-6">
               <button className="w-full bg-yellow-400 text-green-800 px-4 py-2 rounded-md text-sm font-medium hover:bg-yellow-300 transition-colors">
-                🚛 Call Eco Team
+                {t.nav.callEcoTeam}
               </button>
             </div>
           </div>

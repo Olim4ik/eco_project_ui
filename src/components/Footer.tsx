@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from '../i18n';
 
 const Footer = () => {
+  const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
 
   return (
@@ -10,8 +12,7 @@ const Footer = () => {
           <div className="space-y-8 xl:col-span-1">
             <div className="text-2xl font-bold">EcoProject</div>
             <p className="text-gray-300 text-base">
-              Building a sustainable future through innovative environmental
-              solutions.
+              {t.footer.description}
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-gray-300">
@@ -58,7 +59,7 @@ const Footer = () => {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                  Company
+                  {t.footer.quickLinks}
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
@@ -66,7 +67,7 @@ const Footer = () => {
                       to="/about"
                       className="text-base text-gray-300 hover:text-white"
                     >
-                      About
+                      {t.nav.aboutProject}
                     </Link>
                   </li>
                   <li>
@@ -74,22 +75,22 @@ const Footer = () => {
                       to="/services"
                       className="text-base text-gray-300 hover:text-white"
                     >
-                      Services
+                      {t.nav.services}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      to="/contact"
+                      to="/volunteers"
                       className="text-base text-gray-300 hover:text-white"
                     >
-                      Contact
+                      {t.nav.volunteers}
                     </Link>
                   </li>
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                  Support
+                  {t.footer.support}
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
@@ -123,7 +124,7 @@ const Footer = () => {
         </div>
         <div className="mt-12 border-t border-gray-800 pt-8">
           <p className="text-base text-gray-400 xl:text-center">
-            &copy; {currentYear} EcoProject. All rights reserved.
+            &copy; {currentYear} {t.footer.allRightsReserved}
           </p>
         </div>
       </div>

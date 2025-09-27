@@ -1,0 +1,154 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "aboutProject": "Loyiha haqida",
+    "services": "Xizmatlar",
+    "ecoCoins": "Eko-tangalar",
+    "volunteers": "Ko'ngillilar",
+    "games": "O'yinlar",
+    "callEcoTeam": "🚛 Eko-jamoa chaqirish"
+  },
+  "hero": {
+    "title": "Chiqindilarni mukofotlarga aylantiring",
+    "description": "Geymifikatsiyalangan qayta ishlash inqilobiga qo'shiling! Eko-tangalar ishlab oling, jamiyat bilan raqobatlashing va atrof-muhit ta'sirini qiziqarli va foydali qiling.",
+    "callEcoTeamBtn": "🚛 Eko-jamoa chaqirish",
+    "learnMoreBtn": "Qanday ishlashini bilib oling"
+  },
+  "services": {
+    "title": "Bizning asosiy xizmatlarimiz",
+    "description": "Aqlli texnologiyalar, geymifikatsiya va jamiyat ishtirokidan iborat to'liq chiqindi boshqaruv ekotizimi",
+    "callEcoTeam": {
+      "title": "Eko-jamoa chaqirish",
+      "description": "Kalendar integratsiyasi va geolokatsiya bilan tez chiqindi yig'ish bron qilish. O'zingizga qulay vaqtda olib ketishni rejalashtiring."
+    },
+    "trackVehicle": {
+      "title": "Transport kuzatuvi",
+      "description": "Chiqindi yig'ish transportini real vaqtda GPS kuzatuvi. Eko-jamangiz qachon kelishini aniq bilib oling."
+    },
+    "smartContainers": {
+      "title": "Aqlli konteynerlar",
+      "description": "Real vaqtda konteyner to'liqlik darajasini ko'rsatuvchi interaktiv xarita. Eng yaqin topshirish nuqtasini toping."
+    },
+    "ecoCoins": {
+      "title": "Eko-tangalar tizimi",
+      "description": "Mukofotlar ishlab olish uchun QR kodlarni skanerlang. Eko-tangalarni mahsulotlar, chegirmalar va eksklyuziv takliflarga almashiring."
+    },
+    "volunteerNetwork": {
+      "title": "Ko'ngillilar tarmog'i",
+      "description": "Mahalliy jamoalarga qo'shiling, jamoatchilik tadbirlarini tashkil qiling va hududingizdagi ekologik tashabbuslarni boshqaring."
+    },
+    "gamesLearning": {
+      "title": "O'yinlar va ta'lim",
+      "description": "Ta'lim qiziqarli sinovlari, musobaqalar va liderlar jadvali. Do'stlaringiz bilan raqobatlashib o'rganing va ishlab oling."
+    }
+  },
+  "userTypes": {
+    "title": "Biz kimga xizmat qilamiz",
+    "description": "Bizning platformamiz qayta ishlash ekotizimidagi barchani - aholi, biznes va jamiyat rahbarlarini bog'laydi",
+    "residents": {
+      "title": "Aholi",
+      "features": [
+        "• Chiqindi olib ketishni buyurtma qilish",
+        "• Eko-tangalar ishlab olish",
+        "• Shaxsiy ta'sirni kuzatish",
+        "• Ta'lim resurslariga kirish"
+      ]
+    },
+    "volunteers": {
+      "title": "Ko'ngillilar",
+      "features": [
+        "• Mahalliy eko-jamolarni tashkil qilish",
+        "• Jamiyat tashabbuslarini boshqarish",
+        "• Tadbirlarni muvofiqlashtirish",
+        "• Tarmoqlar qurish"
+      ]
+    },
+    "companies": {
+      "title": "Kompaniyalar",
+      "features": [
+        "• Sherik chiqindi xizmatlari",
+        "• Barqarorlik dasturlari",
+        "• Xodimlarni jalb qilish",
+        "• Korporativ homiylik"
+      ]
+    },
+    "operators": {
+      "title": "Operatorlar",
+      "features": [
+        "• Yig'ish yo'nalishlarini boshqarish",
+        "• Tizimlarni monitoring qilish",
+        "• Jamolarni muvofiqlashtirish",
+        "• Samaradorlikni kuzatish"
+      ]
+    }
+  },
+  "howItWorks": {
+    "title": "Qanday ishlaydi",
+    "description": "Atigi 5 ta oddiy qadamda mukofotlar ishlab olishni va ekologik ta'sir ko'rsatishni boshlang",
+    "steps": {
+      "register": {
+        "title": "Ro'yxatdan o'ting",
+        "description": "Profilingizni sozlang va eko-jamiyadagi rolingizni tanlang"
+      },
+      "bookOrDrop": {
+        "title": "Bron qiling yoki topshiring",
+        "description": "Eko-jamoa olib ketishini rejalashtiring yoki aqlli konteyner topshirish nuqtalaridan foydalaning"
+      },
+      "scanQR": {
+        "title": "QR skanerlang",
+        "description": "Qayta ishlash uchun eko-tangalar ishlab olish uchun konteynerlardagi QR kodlarni skanerlang"
+      },
+      "compete": {
+        "title": "Raqobatlashing",
+        "description": "Qiziqarli sinovlarga qo'shiling, liderlar jadvalida ko'tariling va yutuq belgılarını ishlab oling"
+      },
+      "redeem": {
+        "title": "Almashiring",
+        "description": "Eko-tangalarni bizning bozorimizda mukofotlarga almashiring"
+      }
+    }
+  },
+  "technology": {
+    "title": "Innovatsiyalar asosida",
+    "description": "Chiqindi boshqaruvini aqlli, qiziqarli va samarali qiladigan ilg'or texnologiya",
+    "smartIoT": {
+      "title": "Aqlli IoT",
+      "description": "Konteyner sensorlari va real vaqt monitoringi"
+    },
+    "gamification": {
+      "title": "Geymifikatsiya",
+      "description": "Nishonlar, liderlar jadvali va yutuqlar"
+    },
+    "mobilePWA": {
+      "title": "Mobil PWA",
+      "description": "Smartfonda muammosiz tajriba"
+    },
+    "apiEcosystem": {
+      "title": "API ekotizimi",
+      "description": "Mukofotlar uchun sherik integratsiyasi"
+    }
+  },
+  "stats": {
+    "title": "Bizning o'sib borayotgan ta'sirimiz",
+    "description": "Allaqachon farq qilayotgan minglab eko-chempionlarga qo'shiling",
+    "tonsRecycled": "Tonna qayta ishlangan",
+    "activeUsers": "Faol foydalanuvchilar",
+    "ecoCoinsEarned": "Eko-tangalar ishlab olingan",
+    "citiesParticipating": "Shaharlar ishtirok etmoqda"
+  },
+  "cta": {
+    "title": "Mukofotlar ishlab olishni boshlashga tayyormisiz?",
+    "description": "Bugun eko-jamiyamizga qo'shiling va har bir qayta ishlash harakati uchun eko-tangalar ishlab olishni boshlang. Sizning ta'siringiz hozir boshlanadi!",
+    "callEcoTeamBtn": "🚛 Hozir eko-jamoa chaqiring",
+    "startEarningBtn": "🪙 Tangalar ishlab olishni boshlang",
+    "benefits": "🌱 Bepul qo'shilish • 🎮 Tezkor mukofotlar • 🌍 Haqiqiy ta'sir"
+  },
+  "footer": {
+    "description": "Eko-inqilobga qo'shiling va ekologik ta'siringiz uchun mukofotlar ishlab olishni boshlang. Birgalikda barqaror kelajak qurishimiz mumkin.",
+    "quickLinks": "Tezkor havolalar",
+    "services": "Xizmatlar",
+    "support": "Qo'llab-quvvatlash",
+    "followUs": "Bizni kuzating",
+    "allRightsReserved": "Barcha huquqlar himoyalangan. EcoProject"
+  }
+}
