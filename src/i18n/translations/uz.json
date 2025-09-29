@@ -11,7 +11,7 @@
   "hero": {
     "title": "Chiqindilarni mukofotlarga aylantiring",
     "description": "Geymifikatsiyalangan qayta ishlash inqilobiga qo'shiling! Eko-tangalar ishlab oling, jamiyat bilan raqobatlashing va atrof-muhit ta'sirini qiziqarli va foydali qiling.",
-    "callEcoTeamBtn": "👤 Profil",
+    "callEcoTeamBtn": "🚛 Eko-jamoa chaqirish",
     "learnMoreBtn": "Qanday ishlashini bilib oling"
   },
   "services": {
@@ -139,7 +139,7 @@
   "cta": {
     "title": "Mukofotlar ishlab olishni boshlashga tayyormisiz?",
     "description": "Bugun eko-jamiyamizga qo'shiling va har bir qayta ishlash harakati uchun eko-tangalar ishlab olishni boshlang. Sizning ta'siringiz hozir boshlanadi!",
-    "callEcoTeamBtn": "👤 Profil",
+    "callEcoTeamBtn": "🚛 Eko-jamoa chaqirish",
     "startEarningBtn": "🪙 Tangalar ishlab olishni boshlang",
     "benefits": "🌱 Bepul qo'shilish • 🎮 Tezkor mukofotlar • 🌍 Haqiqiy ta'sir"
   },

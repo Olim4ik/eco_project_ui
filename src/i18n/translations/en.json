@@ -11,7 +11,7 @@
   "hero": {
     "title": "Transform Waste into Rewards",
     "description": "Join the gamified recycling revolution! Earn eco-coins, compete with your community, and make environmental impact fun and rewarding.",
-    "callEcoTeamBtn": "👤 Profile",
+    "callEcoTeamBtn": "🚛 Call Eco Team",
     "learnMoreBtn": "Learn How It Works"
   },
   "services": {
@@ -139,7 +139,7 @@
   "cta": {
     "title": "Ready to Start Earning Rewards?",
     "description": "Join our eco-community today and start earning eco-coins for every recycling action. Your impact starts now!",
-    "callEcoTeamBtn": "👤 Profile",
+    "callEcoTeamBtn": "🚛 Call Eco Team",
     "startEarningBtn": "🪙 Start Earning Coins",
     "benefits": "🌱 Free to join • 🎮 Instant rewards • 🌍 Make real impact"
   },
