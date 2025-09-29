@@ -152,49 +152,49 @@ const Header = () => {
                 </div>
               </div>
               <div className="mt-6">
-                <nav className="grid gap-y-6">
+                <nav className="grid gap-y-4">
                   <Link
                     to="/"
-                    className="text-lg font-medium text-gray-900 hover:text-green-600 transition-colors py-2 min-h-touch flex items-center"
+                    className="text-lg font-medium text-gray-900 hover:text-green-600 transition-colors py-3 px-3 min-h-touch flex items-center"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {t.nav.home}
                   </Link>
                   <Link
                     to="/about"
-                    className="text-lg font-medium text-gray-900 hover:text-green-600 transition-colors py-2 min-h-touch flex items-center"
+                    className="text-lg font-medium text-gray-900 hover:text-green-600 transition-colors py-3 px-3 min-h-touch flex items-center"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {t.nav.aboutProject}
                   </Link>
                   <div className="py-2">
-                    <div className="text-lg font-medium text-gray-900 mb-3">
+                    <div className="text-lg font-medium text-gray-900 mb-3 px-3">
                       {t.nav.services}
                     </div>
-                    <div className="ml-4 space-y-3">
-                      <div className="text-base text-gray-600 py-1">• {t.services.callEcoTeam.title}</div>
-                      <div className="text-base text-gray-600 py-1">• {t.services.trackVehicle.title}</div>
-                      <div className="text-base text-gray-600 py-1">• {t.services.smartContainers.title}</div>
+                    <div className="ml-4 space-y-2">
+                      <div className="text-base text-gray-600 py-1 px-3">• {t.services.trackVehicle.title}</div>
+                      <div className="text-base text-gray-600 py-1 px-3">• {t.services.smartContainers.title}</div>
+                      <div className="text-base text-gray-600 py-1 px-3">• {t.services.volunteerNetwork.title}</div>
                     </div>
                   </div>
                   <div className="py-2">
-                    <div className="text-lg font-medium text-gray-900 mb-3">
+                    <div className="text-lg font-medium text-gray-900 mb-3 px-3">
                       {t.nav.ecoCoins}
                     </div>
-                    <div className="ml-4 space-y-3">
-                      <div className="text-base text-gray-600 py-1">• Scan QR Codes</div>
-                      <div className="text-base text-gray-600 py-1">• Marketplace</div>
+                    <div className="ml-4 space-y-2">
+                      <div className="text-base text-gray-600 py-1 px-3">• {t.services.ecoCoins.scanQR}</div>
+                      <div className="text-base text-gray-600 py-1 px-3">• {t.services.ecoCoins.marketplace}</div>
                     </div>
                   </div>
                   <Link
                     to="/volunteers"
-                    className="text-lg font-medium text-gray-900 hover:text-green-600 transition-colors py-2 min-h-touch flex items-center"
+                    className="text-lg font-medium text-gray-900 hover:text-green-600 transition-colors py-3 px-3 min-h-touch flex items-center"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {t.nav.volunteers}
                   </Link>
-                  <div className="pt-4 border-t border-gray-200">
-                    <LanguageSwitcher variant="inline" className="justify-center" />
+                  <div className="pt-6 border-t border-gray-200">
+                    <LanguageSwitcher variant="inline" className="justify-center mb-4" />
                   </div>
                 </nav>
               </div>

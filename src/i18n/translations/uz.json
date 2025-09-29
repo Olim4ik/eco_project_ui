@@ -31,7 +31,9 @@
     },
     "ecoCoins": {
       "title": "Eko-tangalar tizimi",
-      "description": "Mukofotlar ishlab olish uchun QR kodlarni skanerlang. Eko-tangalarni mahsulotlar, chegirmalar va eksklyuziv takliflarga almashiring."
+      "description": "Mukofotlar ishlab olish uchun QR kodlarni skanerlang. Eko-tangalarni mahsulotlar, chegirmalar va eksklyuziv takliflarga almashiring.",
+      "scanQR": "QR kodlarni skanerlash",
+      "marketplace": "Bozor"
     },
     "volunteerNetwork": {
       "title": "Ko'ngillilar tarmog'i",

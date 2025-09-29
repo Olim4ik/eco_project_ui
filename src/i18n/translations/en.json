@@ -31,7 +31,9 @@
     },
     "ecoCoins": {
       "title": "Eco-Coins System",
-      "description": "Scan QR codes to earn rewards. Exchange eco-coins for products, discounts, and exclusive offers."
+      "description": "Scan QR codes to earn rewards. Exchange eco-coins for products, discounts, and exclusive offers.",
+      "scanQR": "Scan QR Codes",
+      "marketplace": "Marketplace"
     },
     "volunteerNetwork": {
       "title": "Volunteer Network",
