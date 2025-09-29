@@ -12,8 +12,9 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4 sm:py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <Link to="/" className="text-xl sm:text-2xl font-bold text-gray-900 transition-colors hover:text-green-600">
-              EcoProject
+            <Link to="/" className="flex items-center space-x-3 text-xl sm:text-2xl font-bold text-gray-900 transition-colors hover:text-green-600">
+              <img src="/eco_logo.jpg" alt="Eco Peckit Logo" className="h-8 w-8 sm:h-10 sm:w-10" />
+              <span>Eco Peckit</span>
             </Link>
           </div>
 
@@ -119,10 +120,11 @@ const Header = () => {
                 <div className="flex items-center justify-between">
                   <Link
                     to="/"
-                    className="text-xl sm:text-2xl font-bold text-gray-900 transition-colors hover:text-green-600"
+                    className="flex items-center space-x-3 text-xl sm:text-2xl font-bold text-gray-900 transition-colors hover:text-green-600"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    EcoProject
+                    <img src="/eco_logo.jpg" alt="Eco Peckit Logo" className="h-8 w-8 sm:h-10 sm:w-10" />
+                    <span>Eco Peckit</span>
                   </Link>
                   <div className="-mr-2">
                     <button

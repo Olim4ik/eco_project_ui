@@ -6,12 +6,12 @@
     "ecoCoins": "Eko-tangalar",
     "volunteers": "Ko'ngillilar",
     "games": "O'yinlar",
-    "callEcoTeam": "🚛 Eko-jamoa chaqirish"
+    "callEcoTeam": "👤 Profil"
   },
   "hero": {
     "title": "Chiqindilarni mukofotlarga aylantiring",
     "description": "Geymifikatsiyalangan qayta ishlash inqilobiga qo'shiling! Eko-tangalar ishlab oling, jamiyat bilan raqobatlashing va atrof-muhit ta'sirini qiziqarli va foydali qiling.",
-    "callEcoTeamBtn": "🚛 Eko-jamoa chaqirish",
+    "callEcoTeamBtn": "👤 Profil",
     "learnMoreBtn": "Qanday ishlashini bilib oling"
   },
   "services": {
@@ -139,7 +139,7 @@
   "cta": {
     "title": "Mukofotlar ishlab olishni boshlashga tayyormisiz?",
     "description": "Bugun eko-jamiyamizga qo'shiling va har bir qayta ishlash harakati uchun eko-tangalar ishlab olishni boshlang. Sizning ta'siringiz hozir boshlanadi!",
-    "callEcoTeamBtn": "🚛 Hozir eko-jamoa chaqiring",
+    "callEcoTeamBtn": "👤 Profil",
     "startEarningBtn": "🪙 Tangalar ishlab olishni boshlang",
     "benefits": "🌱 Bepul qo'shilish • 🎮 Tezkor mukofotlar • 🌍 Haqiqiy ta'sir"
   },
@@ -149,6 +149,6 @@
     "services": "Xizmatlar",
     "support": "Qo'llab-quvvatlash",
     "followUs": "Bizni kuzating",
-    "allRightsReserved": "Barcha huquqlar himoyalangan. EcoProject"
+    "allRightsReserved": "Barcha huquqlar himoyalangan. Eco Peckit"
   }
 }
