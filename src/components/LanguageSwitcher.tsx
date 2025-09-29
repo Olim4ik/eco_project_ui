@@ -22,7 +22,7 @@ export default function LanguageSwitcher({
           <button
             key={language.code}
             onClick={() => changeLanguage(language.code)}
-            className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+            className={`px-3 py-2 text-sm font-medium rounded-md transition-colors min-h-touch min-w-touch ${
               currentLanguage === language.code
                 ? 'bg-green-600 text-white'
                 : 'text-gray-500 hover:text-green-600 hover:bg-green-50'
@@ -41,7 +41,7 @@ export default function LanguageSwitcher({
     <div className={`relative ${className}`}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-500 hover:text-green-600 transition-colors rounded-md hover:bg-green-50"
+        className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-500 hover:text-green-600 transition-colors rounded-md hover:bg-green-50 min-h-touch min-w-touch"
         aria-expanded={isOpen}
         aria-haspopup="true"
       >
@@ -80,7 +80,7 @@ export default function LanguageSwitcher({
                     changeLanguage(language.code);
                     setIsOpen(false);
                   }}
-                  className={`w-full text-left px-4 py-2 text-sm transition-colors flex items-center space-x-3 ${
+                  className={`w-full text-left px-4 py-3 text-sm transition-colors flex items-center space-x-3 min-h-touch ${
                     currentLanguage === language.code
                       ? 'bg-green-50 text-green-600 font-medium'
                       : 'text-gray-700 hover:bg-gray-50'
